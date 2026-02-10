@@ -78,3 +78,23 @@ Notes
 
 - The compact contract here is simplified and demonstrates the register / create_loan_request / prove_credit_threshold circuits. For production, convert the single-slot ledgers into maps, implement robust identifier handling, and implement concrete parsing of `secret` inside the circuit so `prove_credit_threshold` can assert numeric comparisons.
 - The frontend is intentionally minimal. If you want, I can wire it to the compiled contract using the same `MidnightDAppAPI` pattern from the original frontend, implement transaction submission, and provide deploy scripts for a specific Midnight testnet.
+- ## 📖 Detailed Learning Guides
+
+If you are new to Midnight, please read these files in order:
+1.  **[What is this project?](./docs/OVERVIEW.md)** - Concepts of ZK and Privacy.
+2.  **[How does the code work?](./docs/CONTRACT_GUIDE.md)** - A beginner's look at Compact.
+3.  **[The UI Design](./docs/FRONTEND_GUIDE.md)** - Why the frontend looks and feels premium.
+4.  **[Advanced Running](./docs/RUNNING.md)** - Complex setups and Testnet details.
+
+---
+
+## 🐞 Troubleshooting
+- **Compiler Errors**: Ensure you have `compact` version `0.28.0` via `c
+- Here is the preview of the website
+- I have attached live demonstration video below
+
+<img width=
+
+https://github.com/user-attachments/assets/fa1b7d93-f16d-443a-a834-b79117b9ff51
+
+"2879" height="1473" alt="Screenshot 2026-02-10 220912" src="https://github.com/user-attachments/assets/7d523541-a95a-4482-be14-23fbe2c5b950" />
